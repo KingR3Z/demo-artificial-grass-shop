@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Andrew H.", rating: 5, text: "Had a wonderful experience with Artificial Grass Shop. From the design phase right through to the final clean-up, everything was handled brilliantly. The new patio and planting scheme look amazing.", date: "8 months ago" },
+    { name: "Colin Bell", rating: 5, text: "Would give Artificial Grass Shop 10 stars if I could. They transformed our tired-looking garden into a beautiful, functional space. The team were a pleasure to deal with and the price was very competitive for Truro.", date: "4 months ago" },
+    { name: "Joe E.", rating: 5, text: "Used Artificial Grass Shop for landscaping work at our property in Truro. The team were friendly, professional and clearly know their trade inside out. The finished result exceeded what we'd imagined. Will definitely be using them again.", date: "5 months ago" },
+    { name: "Wendy Wright", rating: 5, text: "Cannot recommend Artificial Grass Shop highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "3 months ago" },
+    { name: "James H.", rating: 5, text: "We had Artificial Grass Shop come out to completely transform our back garden and we couldn't be happier. They listened to exactly what we wanted and delivered beyond our expectations. The attention to detail was incredible — every edge, every pla...", date: "a month ago" },
+    { name: "Dawn Taylor", rating: 5, text: "Really impressed with Artificial Grass Shop. They came out, assessed what we needed, gave us honest advice about what would work best, and then delivered a fantastic result. No hard sell, just good honest work.", date: "3 years ago" },
+    { name: "Michael Harvey", rating: 5, text: "Top quality work from Artificial Grass Shop. They redesigned our outdoor space and it's now our favourite part of the house. The whole family spends so much more time outside now. Couldn't be happier.", date: "2 years ago" },
+    { name: "Tracey H.", rating: 5, text: "After getting several quotes, we went with Artificial Grass Shop and it was the best decision. Not the cheapest, but the quality of work is in a different league. Professional, reliable, and the results are gorgeous.", date: "4 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
